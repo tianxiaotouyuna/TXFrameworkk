@@ -10,17 +10,22 @@
 		F1730C9D1A6F51C20019B51B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1730C9C1A6F51C20019B51B /* Foundation.framework */; };
 		F1730C9F1A6F51C20019B51B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1730C9E1A6F51C20019B51B /* CoreGraphics.framework */; };
 		F1730CA11A6F51C20019B51B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1730CA01A6F51C20019B51B /* UIKit.framework */; };
-		F1730CA71A6F51C20019B51B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1730CA51A6F51C20019B51B /* InfoPlist.strings */; };
-		F1730CA91A6F51C20019B51B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1730CA81A6F51C20019B51B /* main.m */; };
-		F1730CAD1A6F51C20019B51B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1730CAC1A6F51C20019B51B /* AppDelegate.m */; };
-		F1730CB01A6F51C30019B51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1730CAE1A6F51C30019B51B /* Main.storyboard */; };
-		F1730CB31A6F51C30019B51B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1730CB21A6F51C30019B51B /* ViewController.m */; };
 		F1730CB51A6F51C30019B51B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1730CB41A6F51C30019B51B /* Images.xcassets */; };
 		F1730CBC1A6F51C30019B51B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1730CBB1A6F51C30019B51B /* XCTest.framework */; };
 		F1730CBD1A6F51C30019B51B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1730C9C1A6F51C20019B51B /* Foundation.framework */; };
 		F1730CBE1A6F51C30019B51B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1730CA01A6F51C20019B51B /* UIKit.framework */; };
 		F1730CC61A6F51C30019B51B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1730CC41A6F51C30019B51B /* InfoPlist.strings */; };
 		F1730CC81A6F51C30019B51B /* TXFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1730CC71A6F51C30019B51B /* TXFrameworkTests.m */; };
+		F1730CF91A6F538D0019B51B /* NSArray+ConnectToStringWithComma.m in Sources */ = {isa = PBXBuildFile; fileRef = F1730CEC1A6F538D0019B51B /* NSArray+ConnectToStringWithComma.m */; };
+		F1730CFA1A6F538D0019B51B /* NSString+Verify.m in Sources */ = {isa = PBXBuildFile; fileRef = F1730CEE1A6F538D0019B51B /* NSString+Verify.m */; };
+		F1730CFB1A6F538D0019B51B /* UIAlertView+QuickAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F1730CF01A6F538D0019B51B /* UIAlertView+QuickAlert.m */; };
+		F1730CFC1A6F538D0019B51B /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = F1730CF21A6F538D0019B51B /* UIColor+expanded.m */; };
+		F1730CFD1A6F538D0019B51B /* UIImage+PureColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F1730CF41A6F538D0019B51B /* UIImage+PureColorImage.m */; };
+		F1730CFE1A6F538D0019B51B /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = F1730CF61A6F538D0019B51B /* UIImage+Resize.m */; };
+		F1730CFF1A6F538D0019B51B /* UIViewController+addBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1730CF81A6F538D0019B51B /* UIViewController+addBackButton.m */; };
+		F1730D051A6F53A80019B51B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1730D011A6F53A80019B51B /* AppDelegate.m */; };
+		F1730D061A6F53A80019B51B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1730D021A6F53A80019B51B /* main.m */; };
+		F1730D071A6F53A80019B51B /* TXFramework-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1730D031A6F53A80019B51B /* TXFramework-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,21 +43,31 @@
 		F1730C9C1A6F51C20019B51B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F1730C9E1A6F51C20019B51B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F1730CA01A6F51C20019B51B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F1730CA41A6F51C20019B51B /* TXFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TXFramework-Info.plist"; sourceTree = "<group>"; };
-		F1730CA61A6F51C20019B51B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F1730CA81A6F51C20019B51B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F1730CAA1A6F51C20019B51B /* TXFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TXFramework-Prefix.pch"; sourceTree = "<group>"; };
-		F1730CAB1A6F51C20019B51B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F1730CAC1A6F51C20019B51B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F1730CAF1A6F51C30019B51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F1730CB11A6F51C30019B51B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F1730CB21A6F51C30019B51B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F1730CB41A6F51C30019B51B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F1730CBA1A6F51C30019B51B /* TXFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1730CBB1A6F51C30019B51B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F1730CC31A6F51C30019B51B /* TXFrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TXFrameworkTests-Info.plist"; sourceTree = "<group>"; };
 		F1730CC51A6F51C30019B51B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1730CC71A6F51C30019B51B /* TXFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXFrameworkTests.m; sourceTree = "<group>"; };
+		F1730CEB1A6F538D0019B51B /* NSArray+ConnectToStringWithComma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+ConnectToStringWithComma.h"; path = "Categories/NSArray+ConnectToStringWithComma.h"; sourceTree = "<group>"; };
+		F1730CEC1A6F538D0019B51B /* NSArray+ConnectToStringWithComma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+ConnectToStringWithComma.m"; path = "Categories/NSArray+ConnectToStringWithComma.m"; sourceTree = "<group>"; };
+		F1730CED1A6F538D0019B51B /* NSString+Verify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Verify.h"; path = "Categories/NSString+Verify.h"; sourceTree = "<group>"; };
+		F1730CEE1A6F538D0019B51B /* NSString+Verify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Verify.m"; path = "Categories/NSString+Verify.m"; sourceTree = "<group>"; };
+		F1730CEF1A6F538D0019B51B /* UIAlertView+QuickAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+QuickAlert.h"; path = "Categories/UIAlertView+QuickAlert.h"; sourceTree = "<group>"; };
+		F1730CF01A6F538D0019B51B /* UIAlertView+QuickAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+QuickAlert.m"; path = "Categories/UIAlertView+QuickAlert.m"; sourceTree = "<group>"; };
+		F1730CF11A6F538D0019B51B /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+expanded.h"; path = "Categories/UIColor+expanded.h"; sourceTree = "<group>"; };
+		F1730CF21A6F538D0019B51B /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+expanded.m"; path = "Categories/UIColor+expanded.m"; sourceTree = "<group>"; };
+		F1730CF31A6F538D0019B51B /* UIImage+PureColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+PureColorImage.h"; path = "Categories/UIImage+PureColorImage.h"; sourceTree = "<group>"; };
+		F1730CF41A6F538D0019B51B /* UIImage+PureColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+PureColorImage.m"; path = "Categories/UIImage+PureColorImage.m"; sourceTree = "<group>"; };
+		F1730CF51A6F538D0019B51B /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resize.h"; path = "Categories/UIImage+Resize.h"; sourceTree = "<group>"; };
+		F1730CF61A6F538D0019B51B /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Resize.m"; path = "Categories/UIImage+Resize.m"; sourceTree = "<group>"; };
+		F1730CF71A6F538D0019B51B /* UIViewController+addBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+addBackButton.h"; path = "Categories/UIViewController+addBackButton.h"; sourceTree = "<group>"; };
+		F1730CF81A6F538D0019B51B /* UIViewController+addBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+addBackButton.m"; path = "Categories/UIViewController+addBackButton.m"; sourceTree = "<group>"; };
+		F1730D001A6F53A80019B51B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = systems/AppDelegate.h; sourceTree = "<group>"; };
+		F1730D011A6F53A80019B51B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = systems/AppDelegate.m; sourceTree = "<group>"; };
+		F1730D021A6F53A80019B51B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = systems/main.m; sourceTree = "<group>"; };
+		F1730D031A6F53A80019B51B /* TXFramework-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TXFramework-Info.plist"; path = "systems/TXFramework-Info.plist"; sourceTree = "<group>"; };
+		F1730D041A6F53A80019B51B /* TXFramework-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TXFramework-Prefix.pch"; path = "systems/TXFramework-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +127,10 @@
 		F1730CA21A6F51C20019B51B /* TXFramework */ = {
 			isa = PBXGroup;
 			children = (
-				F1730CAB1A6F51C20019B51B /* AppDelegate.h */,
-				F1730CAC1A6F51C20019B51B /* AppDelegate.m */,
-				F1730CAE1A6F51C30019B51B /* Main.storyboard */,
-				F1730CB11A6F51C30019B51B /* ViewController.h */,
-				F1730CB21A6F51C30019B51B /* ViewController.m */,
+				F1730CD11A6F51CF0019B51B /* Models */,
+				F1730CD31A6F51EF0019B51B /* Views */,
+				F1730CD21A6F51DE0019B51B /* ViewControllers */,
+				F1730CD41A6F52000019B51B /* Configs */,
 				F1730CB41A6F51C30019B51B /* Images.xcassets */,
 				F1730CA31A6F51C20019B51B /* Supporting Files */,
 			);
@@ -126,10 +140,11 @@
 		F1730CA31A6F51C20019B51B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F1730CA41A6F51C20019B51B /* TXFramework-Info.plist */,
-				F1730CA51A6F51C20019B51B /* InfoPlist.strings */,
-				F1730CA81A6F51C20019B51B /* main.m */,
-				F1730CAA1A6F51C20019B51B /* TXFramework-Prefix.pch */,
+				F1730D001A6F53A80019B51B /* AppDelegate.h */,
+				F1730D011A6F53A80019B51B /* AppDelegate.m */,
+				F1730D021A6F53A80019B51B /* main.m */,
+				F1730D031A6F53A80019B51B /* TXFramework-Info.plist */,
+				F1730D041A6F53A80019B51B /* TXFramework-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +165,56 @@
 				F1730CC41A6F51C30019B51B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1730CD11A6F51CF0019B51B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F1730CD21A6F51DE0019B51B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F1730CD31A6F51EF0019B51B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F1730CD41A6F52000019B51B /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				F1730CD51A6F52200019B51B /* Categories */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		F1730CD51A6F52200019B51B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F1730CEB1A6F538D0019B51B /* NSArray+ConnectToStringWithComma.h */,
+				F1730CEC1A6F538D0019B51B /* NSArray+ConnectToStringWithComma.m */,
+				F1730CED1A6F538D0019B51B /* NSString+Verify.h */,
+				F1730CEE1A6F538D0019B51B /* NSString+Verify.m */,
+				F1730CEF1A6F538D0019B51B /* UIAlertView+QuickAlert.h */,
+				F1730CF01A6F538D0019B51B /* UIAlertView+QuickAlert.m */,
+				F1730CF11A6F538D0019B51B /* UIColor+expanded.h */,
+				F1730CF21A6F538D0019B51B /* UIColor+expanded.m */,
+				F1730CF31A6F538D0019B51B /* UIImage+PureColorImage.h */,
+				F1730CF41A6F538D0019B51B /* UIImage+PureColorImage.m */,
+				F1730CF51A6F538D0019B51B /* UIImage+Resize.h */,
+				F1730CF61A6F538D0019B51B /* UIImage+Resize.m */,
+				F1730CF71A6F538D0019B51B /* UIViewController+addBackButton.h */,
+				F1730CF81A6F538D0019B51B /* UIViewController+addBackButton.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1730CB51A6F51C30019B51B /* Images.xcassets in Resources */,
-				F1730CA71A6F51C20019B51B /* InfoPlist.strings in Resources */,
-				F1730CB01A6F51C30019B51B /* Main.storyboard in Resources */,
+				F1730D071A6F53A80019B51B /* TXFramework-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +313,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1730CB31A6F51C30019B51B /* ViewController.m in Sources */,
-				F1730CAD1A6F51C20019B51B /* AppDelegate.m in Sources */,
-				F1730CA91A6F51C20019B51B /* main.m in Sources */,
+				F1730CFB1A6F538D0019B51B /* UIAlertView+QuickAlert.m in Sources */,
+				F1730CFF1A6F538D0019B51B /* UIViewController+addBackButton.m in Sources */,
+				F1730CFD1A6F538D0019B51B /* UIImage+PureColorImage.m in Sources */,
+				F1730CFC1A6F538D0019B51B /* UIColor+expanded.m in Sources */,
+				F1730D051A6F53A80019B51B /* AppDelegate.m in Sources */,
+				F1730CF91A6F538D0019B51B /* NSArray+ConnectToStringWithComma.m in Sources */,
+				F1730CFA1A6F538D0019B51B /* NSString+Verify.m in Sources */,
+				F1730D061A6F53A80019B51B /* main.m in Sources */,
+				F1730CFE1A6F538D0019B51B /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,22 +344,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F1730CA51A6F51C20019B51B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F1730CA61A6F51C20019B51B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F1730CAE1A6F51C30019B51B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F1730CAF1A6F51C30019B51B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F1730CC41A6F51C30019B51B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -377,7 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TXFramework/TXFramework-Prefix.pch";
+				GCC_PREFIX_HEADER = "TXFramework/systems/TXFramework-Prefix.pch";
 				INFOPLIST_FILE = "TXFramework/TXFramework-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -390,7 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TXFramework/TXFramework-Prefix.pch";
+				GCC_PREFIX_HEADER = "TXFramework/systems/TXFramework-Prefix.pch";
 				INFOPLIST_FILE = "TXFramework/TXFramework-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
